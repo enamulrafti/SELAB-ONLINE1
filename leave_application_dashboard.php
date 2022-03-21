@@ -16,7 +16,7 @@
             echo "<td> $LEAVE_START </td>";
             echo "<td> $LEAVE_END </td>";
             echo "<td> $STATUS1 </td>";
-            echo "<td> $STATUS1 </td>";
+            echo "<td> $REMARKS </td>";
             // echo "<td> <a href = 'delete.php?id=$id'> Delete </a> </td>";
             // echo "<td> <a href = 'update_input.php?id=$id&f0=$f0&f1=$f1'> Update </a> </td>";
             echo "</tr> \n";
