@@ -3,7 +3,7 @@
 	$connect = mysqli_connect( HOST, USER, PASS, DB )
 		or die("Can not connect");
 
-        $results = mysqli_query( $connect, "SELECT * FROM leave_enrty" )
+        $results = mysqli_query( $connect, "SELECT * FROM leave_enrty WHERE STATUS1 = 'PENDING' " )
 		or die("Can not execute query");
 
         echo "<table border> \n";
