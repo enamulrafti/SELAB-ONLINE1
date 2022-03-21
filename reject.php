@@ -18,9 +18,15 @@
 		or die("Can not execute query");
 
 
+?>
+        <form method=get action=remarks_add.php>
+        
+        id: <input type=hidden name=id> <br>
+        Remarks: <input type=textfield name=remarks> <br>
+        <input type=submit value=Insert>
 
-	echo "<p>REJECTED!";
-
+        </form>
+<?php
 
 
 	echo "<p><a href=home.html> << HOME </a>";
